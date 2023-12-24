@@ -30,7 +30,7 @@ const allUsers = [
 ];
 
 const getUsersWithFriend=(users, friendName)=>{
-   return youFrends = users.filter(use => use.friends.includes(friendName))
+  return users.filter(use => use.friends.includes(friendName));
 }
 
 

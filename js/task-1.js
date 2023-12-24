@@ -1,5 +1,5 @@
  let getUserNames = users =>{
-  return Object.values( nikenamn = users.map(niki=>niki.name));
+  return users.map(niki=>niki.name);
 }
 
 console.log(

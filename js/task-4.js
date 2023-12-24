@@ -1,12 +1,12 @@
-getTotalBalanceByGender = (users, gender) =>{
+const getTotalBalanceByGender = (users, gender) =>{
 //  const sumio 
 
- return sumio= users.filter((genderus)=> genderus.gender===gender)
- .reduce((unit,uni )=> { console.log(unit); return unit+uni.balance ;},0);;
+ return users.filter((genderus)=> genderus.gender===gender)
+    .reduce((unit, uni) => {
+      
+      return unit + uni.balance;
+    }, 0);
 }
-//  .reduce((unit,uni )=> {return unit.balance.uni.balance},0);
-// console.log(sum);
-// }
 
 
 const allUsers = [
